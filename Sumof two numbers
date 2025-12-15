@@ -1,0 +1,14 @@
+ #include <iostream>
+using namespace std;
+
+int main() 
+{
+  int num, var;
+    cout << "Enter Number 1 ";
+    cin>>num;
+    cout << "Enter Number 2 ";
+    cin>>var;
+    int Sum=num+var;
+    cout<<" Sum is "<<Sum;
+    return 0;
+}
